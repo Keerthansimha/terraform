@@ -1,4 +1,4 @@
-/* resource "aws_instance" "web" {
+ resource "aws_instance" "web" {
   ami           = "ami-0427090fd1714168b"  # Update this AMI ID to match your preferred region and Linux distribution
   instance_type = "t2.micro"
   key_name      = "simha-1" 
@@ -56,5 +56,3 @@ output "public_ips" {
     aws_instance.ap_southeast_instance.public_ip
   ]
 }
-
-*/
