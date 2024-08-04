@@ -201,9 +201,9 @@ resource "aws_instance" "example" {
     <?php
 
 define('DB_SERVER', ${aws_db_instance.example.address});
-define('DB_USERNAME', 'admin');
-define('DB_PASSWORD', 'Simha0987');
-define('DB_DATABASE', 'exampledb');
+define('DB_USERNAME', '');
+define('DB_PASSWORD', '');
+define('DB_DATABASE', '');
 
 ?>
   EOF
